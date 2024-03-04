@@ -76,7 +76,15 @@
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="16dp"
-                android:src=""
+                android:src="@drawable/linked"
+                android:id="@id/linked_Inn"/>
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/twitter"
+                android:id="@id/twitter"/>
         </LinearLayout>
     </LinearLayout>
 
