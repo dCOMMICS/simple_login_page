@@ -25,6 +25,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             android:hint="Username"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -32,7 +33,29 @@
             android:background="@drawable/rounded_corner"
             android:padding="18dp"
             android:inputType="textCapSentences"
-            android:id="@+id/username_input"
+            android:id="@+id/username_input"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_corner"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/userpassword_input"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+
 
     </LinearLayout>
 
