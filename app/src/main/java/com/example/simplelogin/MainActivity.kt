@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         passwordInput = findViewById(R.id.userpassword_input)
         loginBtn = findViewById(R.id.login_btn)
 
+
         loginBtn.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
